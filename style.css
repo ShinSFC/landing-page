@@ -1,4 +1,23 @@
 body {
     display: flex;
     flex-direction: column;
-]
+}
+
+.header {
+    display:flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    /* align-items: center; doesn't seem to work */
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 10px;
+}
