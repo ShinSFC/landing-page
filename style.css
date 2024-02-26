@@ -68,6 +68,45 @@ a {
     align-items: center;
 }
 
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.four-images-and-text {
+    display: flex;
+    justify-content: center;
+}
+
+.pic-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.four-images-and-text img,
+p {
+    width: 150px;
+}
+
+.three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    color: #1F2937
+    font-style: "light italic", sans-serif;
+    font-size: 36px;
+}
+
+.author {
+   margin-left: 80px; 
+}
+
 .footer {
     color: white;
     background-color: #1F2937;
