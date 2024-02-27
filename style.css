@@ -46,6 +46,7 @@ a {
 }
 
 .hero-text {
+    color: white;
     font-size: 48px;
     font-weight: 700;
 }
@@ -90,8 +91,14 @@ p {
     width: 150px;
 }
 
+.two img {
+    border: solid #3882F6;
+    border-radius: 5px;
+}
+
 .three {
     background-color: #E5E7EB;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,21 +114,28 @@ p {
 .author {
     align-self: flex-end;
     margin-right: 130px;
+    font-weight: 700;
 }
 
 .four {
     background-color: #3882F6;
     display:flex;
-    align-self: center;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
     padding: 50px;
     margin: 50px;
-    
+    border-radius: 5px;
 }
 
 .four-left-side {
-        display: flex;
-        flex-direction: column;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.four-header {
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .sign-up-two {
@@ -130,11 +144,13 @@ p {
     border: 2px solid white;
     border-radius: 2px;
     width: 120px;
+    height: 20px;
 }
 
 .footer {
     color: white;
     background-color: #1F2937;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
