@@ -50,7 +50,7 @@ a {
     font-weight: 700;
 }
 
-.one-button {
+.sign-up-one {
     color:white;
     background: #3882F6;
     border: 0;
@@ -98,13 +98,38 @@ p {
 }
 
 .quote {
-    color: #1F2937
+    color: #1F2937;
     font-style: "light italic", sans-serif;
     font-size: 36px;
+    margin: 10px 130px 5px;
 }
 
 .author {
-   margin-left: 80px; 
+    align-self: flex-end;
+    margin-right: 130px;
+}
+
+.four {
+    background-color: #3882F6;
+    display:flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 50px;
+    
+}
+
+.four-left-side {
+        display: flex;
+        flex-direction: column;
+}
+
+.sign-up-two {
+    color: white;
+    background: #3882F6;
+    border: 2px solid white;
+    border-radius: 2px;
+    width: 120px;
 }
 
 .footer {
